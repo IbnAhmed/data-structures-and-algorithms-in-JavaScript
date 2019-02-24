@@ -7,16 +7,17 @@
 }
 .documentation-header, .documentation-body{		
 	margin: auto;	
-	padding: 10px;
 	border: 1px dashed #777
 }
 .documentation-header{
 	text-align: center;
 	font-size: 25px;
 	color: #9da1c5;
+	padding: 10px;
 }
 .documentation-body {
 	border-top: none;
+	padding: 0 10px;
 }
 .documentation-body .documentation-item{
 	display: flex;
