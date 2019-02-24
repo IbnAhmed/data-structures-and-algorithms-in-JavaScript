@@ -1,0 +1,31 @@
+.documentation{
+	width: 70%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;	
+}
+.documentation-header, .documentation-body{		
+	margin: auto;	
+	padding: 10px;
+	border: 1px dashed #777
+}
+.documentation-header{
+	text-align: center;
+	font-size: 25px;
+	color: #9da1c5;
+}
+.documentation-body {
+	border-top: none;
+}
+.documentation-body .documentation-item{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 900;
+}
+.documentation-body .documentation-item .key{
+	color: #585555;
+}
+.documentation-body .documentation-item .value{
+	color: #fbba43;
+}

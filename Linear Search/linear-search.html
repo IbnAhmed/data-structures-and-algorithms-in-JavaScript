@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Linear Search</title>
+	<link rel="stylesheet" type="text/css" href="../__asset/style.css">
+</head>
+<body>
+	<main class="documentation">
+		<h3 class="documentation-header">Watch On Browser Console</h3>
+		<div class="documentation-body">
+			<p class="documentation-item">
+				<span class="key">Function name</span>
+				<span class="value">linear_search.</span>
+			</p>
+			<p class="documentation-item">
+				<span class="key">Parameter</span>
+				<span class="value">items(array), search_item(number or string).</span>
+			</p>
+			<p class="documentation-item">
+				<span class="key">Return</span>		
+				<span class="value">search_items's index position(int) in items.<br>note: -1 for not found</span>
+			</p>
+			<p class="documentation-item">
+				<span class="key">Complexity</span>		
+				<span class="value">For time - O(length of items),<br>For space - O(1)</span>
+			</p>
+		</div>
+	</main>
+	<script type="text/javascript">
+		function linear_search(items, search_item){
+			for (var i = 0; i < items.length; i++) {
+				if(items[i] == search_item){
+					return i;
+				}
+			}
+			return -1;
+		}
+	</script>
+</body>
+</html>
