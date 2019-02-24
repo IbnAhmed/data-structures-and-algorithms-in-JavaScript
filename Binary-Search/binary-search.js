@@ -1,7 +1,7 @@
 function binary_search(items, search_item){
-	n = items.length;
+	counter = items.length;
 	left = 0;
-	right = n-1;
+	right = counter-1;
 	
 	while(left <= right){
 		mid = parseInt((left+right)/2);
