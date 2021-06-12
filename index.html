@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index Page</title>
+	<link rel="stylesheet" type="text/css" href="./__asset/style.css?v=0.1">
+</head>
+<body>
+	<main class="documentation">
+		<h3 class="documentation-header">
+			Implementations of Data Structure & Algorithm in <mark>JavaScript</mark>
+			
+			<small class="documentation-subheader">by <a href="http://github.com/ibnahmed" target="_blank" >Muntaha Ibn Ahmed</a></small>
+		</h3>
+		<div class="documentation-body"></div>
+	</main>
+	<script type="text/javascript">
+		const items = [
+			{
+				name: 'Binary Search',
+				link: 'Binary-Search/index.html'
+			},
+			{
+				name: 'Linear Search',
+				link: 'Linear-Search/index.html'
+			},
+			{
+				name: 'Bubble Sort',
+				link: 'Bubble-Sort/index.html'
+			},
+			{
+				name: 'Insertion Sort',
+				link: 'Insertion-Sort/index.html'
+			},
+			{
+				name: 'Merge Sort',
+				link: 'Merge-Sort/index.html'
+			},
+			{
+				name: 'Quick Sort',
+				link: 'Quick-Sort/index.html'
+			},
+			{
+				name: 'Selection Sort',
+				link: 'Selection-Sort/index.html'
+			},
+		];
+
+		let html = '';
+
+		items.forEach(item => {
+			html += `
+			<p class="documentation-item">
+				<span class="key">${item.name}</span>
+				<span class="value">
+					<a href="${item.link}">${item.link}</a>
+				</span>
+			</p>
+			`
+		});
+
+		document.querySelector('.documentation-body').innerHTML = html;
+	</script>
+</body>
+</html>

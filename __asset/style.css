@@ -17,6 +17,16 @@ body{
 	color: #9da1c5;
 	padding: 10px;
 }
+.documentation-header .documentation-subheader{
+	display: block;
+	font-size: 15px;
+	color: #9da1c5;
+	margin-top: 5px;
+	color: #b3b3b3;
+}
+.documentation-header .documentation-subheader a{
+	color: inherit;
+}
 .documentation-body {
 	border-top: none;
 	padding: 0 10px;
@@ -38,4 +48,7 @@ body{
 }
 .documentation-body .documentation-item .value{
 	color: #fbba43;
+}
+.documentation-body .documentation-item .value a:link {
+    color: #5096ff;
 }
