@@ -9,6 +9,9 @@ body{
 	margin: 0;
 	padding: 10px;
 }
+.pre-line{
+	white-space: pre-line;
+}
 .documentation{
 	width: 70%;
 }
