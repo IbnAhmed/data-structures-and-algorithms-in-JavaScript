@@ -12,6 +12,12 @@ body{
 .pre-line{
 	white-space: pre-line;
 }
+code{
+	background-color: #eee;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+}
 .documentation{
 	width: 70%;
 }
