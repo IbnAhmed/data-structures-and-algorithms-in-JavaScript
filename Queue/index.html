@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Queue</title>
+	<link rel="stylesheet" type="text/css" href="../assets/style.css?v=0.3">
+	<script src="../Linked-List/linked-list.js"></script>
+	<script src="../Stack/stack.js"></script>
+	<script src="queue.js"></script>
+	<script src="exercise.js"></script>
+</head>
+<body>
+	<main class="documentation">
+		<a href="../index.html">Back to index page</a>
+		<br>
+		<br>
+		<h3 class="documentation-header">
+			Implementation of <u>Queue</u> in <mark>JavaScript</mark>
+			
+			<small class="documentation-subheader">by <a href="http://github.com/ibnahmed" target="_blank" >Muntaha Ibn Ahmed</a></small>
+		</h3>
+		<h3 class="documentation-header">Watch On Browser Console</h3>
+		<div class="documentation-body">
+			<p class="documentation-item">
+				<span class="key">Class Name</span>
+				<span class="value">Queue</span>
+			</p>
+			<p class="documentation-item">
+				<span class="key">Function List</span>
+				<span class="value">
+					<code class="pre-line">enQueue(item)
+						deQueue()
+						peek()
+						isEmpty()
+						print()
+					</code>
+				</span>
+			</p>
+			<p class="documentation-item">
+				<span class="key">Code Sample</span>
+				<span class="value">
+					<code class="pre-line">let newQueue = new Queue();
+						if(newQueue.isEmpty()){
+							newQueue.enQueue(2);
+							newQueue.enQueue(3);
+						}
+
+						console.log('[Queue] First value', newQueue.peek());
+						console.log('[Queue] First value removed', newQueue.deQueue());
+						console.log('[Queue] Is Empty', newQueue.isEmpty());
+					</code>
+				</span>
+			</p>
+		</div>
+	</main>
+</body>
+</html>
