@@ -224,4 +224,4 @@ let ll = new LinkedList();
 ll.addFirst(20);
 ll.addFirst(40);
 ll.addLast(10);
-ll.print();
+// ll.print();
