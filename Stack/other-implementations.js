@@ -87,13 +87,13 @@ class StackWithTwoQueue{
 // console.log('[Stack With LinkedList] Top value', newLLStack.peek());
 // console.log('[Stack With LinkedList] Top value removed', newLLStack.pop());
 
-let newQStack = new StackWithTwoQueue();
-if(newQStack.isEmpty()){
-	newQStack.push(20);
-	newQStack.push(31);
-}
+// let newQStack = new StackWithTwoQueue();
+// if(newQStack.isEmpty()){
+// 	newQStack.push(20);
+// 	newQStack.push(31);
+// }
 
-newQStack.print();
-console.log('[Stack With Queue] Top value', newQStack.peek());
-console.log('[Stack With Queue] Top value removed', newQStack.pop());
-newQStack.print();
+// newQStack.print();
+// console.log('[Stack With Queue] Top value', newQStack.peek());
+// console.log('[Stack With Queue] Top value removed', newQStack.pop());
+// newQStack.print();
