@@ -66,6 +66,28 @@ class LinkedList{
 		}
 		return false;
 	}
+
+	deleteByIndex(index){
+		let current;
+		
+		if(this.size >= 1 && index == 0) {
+			return this.deleteFirst();
+		} else{
+
+			current = this.first;
+			let tempIndex = 0;
+			while(current.next){
+				if((tempIndex+1) == index){
+					current.next = current.next.next;
+					this.size--;
+					return true;
+				}
+				tempIndex++;
+				current = current.next;
+			}
+		}
+	}
+
 	indexOf(data){
 		let current;
 		current = this.first;
